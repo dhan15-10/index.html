@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Adira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Adira<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="small-title">HALO, SAYA</p>
+                    <h1>Adira <span>Fatih <span> Romadhan</span></h1>
+                    <h2>Mahasiswa</h2>
+                    <p>
+                        Saya mahasiswa yang sedang belajar di Fakultas Ilmu Komputer Universitas Jember.
+                        Asal Saya Dari Jember
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary">Lihat Project</a>
+                    </div>
+                </div>
+
+                <div class="profile-card">
+                    <img src="c:\Users\Adira Fatih\OneDrive\Desktop\Foto.jpeg"class="profile-photo">
+                    <h3>Web Developer</h3>
+                    <p>HTML • CSS • JavaScript</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="about">
+            <div class="container">
+                <p class="section-label">TENTANG SAYA</p>
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-grid">
+                    <div>
+                        <p>
+                            Saya sangat tertarik pada pengembangan
+                            website dan pemrograman.
+                        </p>
+                        <p>
+                            Portfolio ini dibuat sebagai latihan slicing website
+                            menggunakan HTML, Plain CSS, dan JavaScript DOM.
+                        </p>
+                    </div>
+
+                    <div class="info-box">
+                        <div>
+                            <strong>Nama</strong>
+                            <span>Adira Fatih</span>
+                        </div>
+                        <div>
+                            <strong>Status</strong>
+                            <span>Mahasiswa</span>
+                        </div>
+                        <div>
+                            <strong>Fokus</strong>
+                            <span>Study</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section section-dark" id="skills">
+            <div class="container">
+                <p class="section-label">KEMAMPUAN</p>
+                <h2 class="section-title">My Skills</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Membuat struktur dari website.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">#</div>
+                        <h3>CSS</h3>
+                        <p>Membuat Tampilan Lebih Menarik.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Membuat website lebih interaktif.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="projects">
+            <div class="container">
+                <p class="section-label">PROJECT</p>
+                <h2 class="section-title">My Projects</h2>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image">01</div>
+                        <div class="project-content">
+                            <span>HTML • CSS</span>
+                            <h3>Landing Page</h3>
+                            <p>Website landing page yang sederhana.</p>
+                            <button class="detail-btn" data-project="Landing Page">
+                                Detail
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">02</div>
+                        <div class="project-content">
+                            <span>HTML • CSS • JS</span>
+                            <h3>To-Do List</h3>
+                            <p>Aplikasi sederhana untuk menambahkan dan menghapus tugas.</p>
+                            <button class="detail-btn" data-project="To-Do List">
+                                Detail
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">03</div>
+                        <div class="project-content">
+                            <span>HTML • CSS • JS</span>
+                            <h3>Dashboard UI</h3>
+                            <p>Dashboard sederhana dengan menu navigasi dan data card.</p>
+                            <button class="detail-btn" data-project="Dashboard UI">
+                                Detail
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Adira Fatih R.</p>
+    </footer>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
